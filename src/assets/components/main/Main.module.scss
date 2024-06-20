@@ -1,0 +1,28 @@
+.viola {
+    color: rgb(138, 4, 255);
+}
+
+.button {
+    background-color: rgb(138, 4, 255);
+    padding: 5px;
+    color: white;
+    margin: 10px 3px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+
+    &:hover{
+        background-color: white;
+        color: rgb(138, 4, 255);
+        border: 1px solid;
+    }
+}
+
+.image{
+    width: 100%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    height: 200px;
+    object-fit: cover;
+}
